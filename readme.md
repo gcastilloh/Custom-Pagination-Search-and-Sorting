@@ -4,6 +4,13 @@ Django REST Framework Tutorial - Custom Pagination, Search & Sorting using MySQL
 
 https://www.youtube.com/watch?v=YMbSyWjCpI4&ab_channel=ScalableScripts
 
+# descripción
+
+La paginación es un proceso común en django, lo mismo el filtrao o la búsqueda, estos procesos
+funciona generalmente bien de manera independiente, pero al tratar de integrar todos estos en 
+una sola consulta al backend comienzan los problemas. Aqui se presenta una solución sencilla 
+al problema. Esta solución no hace uso de la paginación ya integrada en django
+
 # uso
 
 Mediante postman puede hacerse una consulta via rest-framework a las ligas

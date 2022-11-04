@@ -9,7 +9,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         faker = Faker()
 
-        for _ in range(50):
+        for _ in range(500):
             Product.objects.create(
                 title = faker.name(),
                 description = faker.text(200),

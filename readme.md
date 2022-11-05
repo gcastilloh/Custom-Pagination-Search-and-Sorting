@@ -1,3 +1,10 @@
+# descripción
+
+Aplicación que implementa mediante Django-REST una API simple para consultar una tabla de datos, 
+filtrando, paginando, ordenando y filtrando la información. Todo este proceso se lleva a cabo del lado del backend.
+
+El archivo views.py de la app search contiene la mayor parte del proceso.
+
 # Basado en:
 
 Django REST Framework Tutorial - Custom Pagination, Search & Sorting using MySQL
